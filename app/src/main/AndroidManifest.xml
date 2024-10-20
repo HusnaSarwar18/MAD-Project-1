@@ -13,23 +13,8 @@
         android:theme="@style/Theme.Pakwheels"
         tools:targetApi="31">
         <activity
-            android:name=".SplashActivity"
-            android:exported="false" />
-        <activity
-            android:name=".OTPPage"
-            android:exported="false" />
-        <activity
-            android:name=".ProfilePage"
-            android:exported="false" />
-        <activity
-            android:name=".SellNowPage"
-            android:exported="false" />
-        <activity
-            android:name=".BrowsePage"
-            android:exported="false" />
-        <activity
-            android:name=".LoginPage"
-            android:exported="false" />
+            android:name=".OTPActivity"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

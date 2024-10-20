@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment"
+    android:background="@color/background"
+    android:fitsSystemWindows="true">
+
+    <!-- TODO: Update blank fragment layout -->
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center"
+       android:padding="16dp"
+       android:layout_margin="20dp">
+       <TextView
+           android:id="@+id/welcomeText"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Welcome to PakWheels"
+           android:textSize="24sp"
+           android:textColor="#000000" />
+
+       <ImageView
+           android:id="@+id/imageView"
+           android:layout_width="200dp"
+           android:layout_height="200dp"
+           tools:src="@drawable/login" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Safely Connect with Buyers"
+           android:textSize="16sp"
+           android:textColor="#808080"
+           android:layout_marginTop="8dp" />
+
+       <TextView
+           android:id="@+id/textView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="You can connect with thousands of buyers and quick search"
+           android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+       <EditText
+           android:id="@+id/phoneInput"
+           android:layout_width="match_parent"
+           android:layout_height="49dp"
+           android:hint="Phone Number"
+           android:inputType="phone"
+           android:layout_marginTop="24dp" />
+
+       <Button
+           android:id="@+id/continueMobileButton"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Continue with Mobile Number"
+           android:layout_marginTop="16dp" />
+
+       <Button
+           android:id="@+id/continueGoogleButton"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Continue with Google"
+           android:layout_marginTop="8dp" />
+
+       <Button
+           android:id="@+id/continueFacebookButton"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Continue with Facebook"
+           android:layout_marginTop="8dp" />
+
+       <Button
+           android:id="@+id/continueEmailButton"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Continue with Email"
+           android:layout_marginTop="8dp" />
+   </LinearLayout>
+
+</FrameLayout>
